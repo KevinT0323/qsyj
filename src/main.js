@@ -5,6 +5,15 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
+//Lazyload
+import { Lazyload } from 'vant';
+Vue.use(Lazyload);
+
+//Axios
+import Axios from 'axios'
+//Vue原型屬性
+Vue.prototype.$ajax = Axios
+
 Vue.config.productionTip = false
 
 //第二步:導入組件
