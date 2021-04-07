@@ -1,5 +1,5 @@
 <template>
-	<div class="goods-item-view">
+	<div class="goods-item-view" @click='goodsItemClick(goods.id)'>
 		<img class="img" v-lazy='goods.img' />
 		<p class="title">{{ goods.title }}</p>
 		<p class="desc"> {{ goods.desc }}</p>
@@ -14,7 +14,13 @@
 <script>
 	export default {
 		name: 'goodsItemView',
-		props: ['goods']
+		props: ['goods'],
+		methods: {
+			goodsItemClick: function(goodsId){
+				this.$store.commit('changeGoodsDetailShow')
+				this.$store.commit('changeGoodsItemId' ,goodsId)
+			}
+		}
 	}
 </script>
 

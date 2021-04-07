@@ -30,5 +30,6 @@
 	.title-view>h3 {
 		font-size: 1.125rem;
 		text-align: center;
+		font-weight: 900;
 	}
 </style>
