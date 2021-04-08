@@ -94,4 +94,9 @@
 	.slide-to-top-leave-to {
 		transform: translateY(100%);
 	}
+	
+	.van-nav-bar .van-nav-bar__arrow {
+		color: white;
+		font-size: 1rem;
+	}
 </style>
