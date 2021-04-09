@@ -14,6 +14,7 @@
 			}
 		},
 		created() {
+			this.$emit('onTitle', this.title)
 			this.$emit('onNavShow', this.navViewShow)
 		}
 	}
