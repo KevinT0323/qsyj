@@ -102,7 +102,7 @@
 <style>
 	.home-view {
 		padding-top: 2.8125rem;
-		padding-bottom: 2.8125rem;
+		padding-bottom: 3.125rem;
 	}
 
 	.home-view>.banner-view img {
