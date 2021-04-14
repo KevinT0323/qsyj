@@ -41,6 +41,9 @@
 			onCheckedChange: function() {
 				// console.log(this.checked)
 				this.$emit('onChangeChecked', this.checked, this.index)
+			},
+			onItemViewChagne: function(checked) {
+				this.checked = checked
 			}
 		}
 	}

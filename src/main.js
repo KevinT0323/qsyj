@@ -2,12 +2,12 @@ import Vue from 'vue'
 import App from './App.vue'
 
 //Lazyload
-import { Lazyload } from 'vant';
+import { Lazyload, AddressEdit } from 'vant';
 Vue.use(Lazyload);
 
 //狀態管理 Vuex
 import Vuex from 'vuex'
-Vue.use(Vuex)
+Vue.use(Vuex).use(AddressEdit)
 
 //定義狀態管理器
 var store = new Vuex.Store({

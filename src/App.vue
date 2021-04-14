@@ -131,4 +131,8 @@
 		color: white;
 		font-size: 1rem;
 	}
+	
+	#app .van-tabbar {
+		z-index: 999;
+	}
 </style>
