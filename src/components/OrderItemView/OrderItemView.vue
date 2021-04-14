@@ -34,10 +34,10 @@
 			<div class="buttons">
 				<van-button v-show="logistics" round size="small">查看物流</van-button>
 				<van-button v-show="again" round size="small">再次購買</van-button>
-				<van-button v-show="cancel" size="small">取消訂單</van-button>
-				<van-button v-show="pay" type="danger" size="small">立即購買</van-button>
-				<van-button v-show="prompt" size="small">提醒發貨</van-button>
-				<van-button v-show="confirm" type="danger" size="small">確認收貨</van-button>
+				<van-button v-show="cancel" round size="small">取消訂單</van-button>
+				<van-button v-show="pay" round type="danger" size="small">立即購買</van-button>
+				<van-button v-show="prompt" round size="small">提醒發貨</van-button>
+				<van-button v-show="confirm" round type="danger" size="small">確認收貨</van-button>
 			</div>
 		</div>
 	</div>
